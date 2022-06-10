@@ -1,0 +1,101 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFCC8F;
+    color: #634520;
+    overflow-x: hidden;
+    /* this will stop the width scrolling of the page*/
+
+}
+
+
+.top-container,
+.footer-container {
+    width: 100%;
+    height: 30%;
+}
+
+.top-container {
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.navi .logo {
+    position: absolute;
+
+}
+
+.navi p {
+    width: 48px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    left: 80px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 150px;
+    border: 1px solid #634520;
+
+
+
+}
+
+.top-container ul {
+    list-style: none;
+    position: relative;
+    left: 1009px;
+    margin: 10px 0;
+    padding: 0;
+
+
+}
+
+.top-container ul,
+.top-container .logo {
+    padding-top: 20px;
+}
+
+.top-container li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.top-container a {
+    text-decoration: none;
+    color: #634520;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 350px;
+    position: relative;
+    left: 30px;
+
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.middle-container {
+    height: 40%;
+    width: 80%;
+    margin: auto;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-container .info {
+    background-color: #ffead3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5%;
+
+}
